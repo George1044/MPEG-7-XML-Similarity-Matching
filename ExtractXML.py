@@ -23,7 +23,7 @@ for csd, scd, cld, dcd, htd, ehd in zip(CSD, SCD, CLD, DCD, HTD, EHD):
     valueEHD = ehd[ehd.find(" "):]
     Descriptor = ET.SubElement(Mpeg7, 'urn:ColorStructureType')
     Descriptor.text = valueCSD
-    Descriptor = ET.SubElement(Mpeg7, 'urnScalableColorType')
+    Descriptor = ET.SubElement(Mpeg7, 'urn:ScalableColorType')
     Descriptor.text = valueSCD
     Descriptor = ET.SubElement(Mpeg7, 'urn:ColorLayoutType')
     Descriptor.text = valueCLD
