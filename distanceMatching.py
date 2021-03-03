@@ -1,12 +1,15 @@
-import numpy as np
-import glob, os
+import glob
+import os
 import xml.etree.cElementTree as ET
+
 import cv2 as cv
-descriptors_ehd  = np.empty(shape=[0, 80])
-descriptors_clt  = np.empty(shape=[0, 120])
-descriptors_cst  = np.empty(shape=[0, 64])
-descriptors_htt  = np.empty(shape=[0, 62])
-os.chdir('./XML')
+import numpy as np
+
+descriptors_ehd = np.empty(shape=[0, 80])
+descriptors_clt = np.empty(shape=[0, 120])
+descriptors_cst = np.empty(shape=[0, 64])
+descriptors_htt = np.empty(shape=[0, 62])
+os.chdir('./XMLSIMPLE')
 
 ###Processing ALL descriptors
 all_files = glob.glob("*.xml")

@@ -1,17 +1,73 @@
-<Mpeg7 xmlns:urn="urn:mpeg:mpeg7:schema:2004">
+<Mpeg7 xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004">
   <MediaLocator>
     <MediaURI>932.jpg</MediaURI>
   </MediaLocator>
-  <urn:ColorStructureType> 193 6 0 0 0 0 0 10 255 255 30 10 0 0 0 0 0 0 0 0 0 0 90 30 121 121 149 106 1 0 0 0 0 0 0 0 64 30 11 5 36 3 4 9 4 0 0 0 2 0 0 0 9 0 0 0 8 1 0 0 0 0 0 0
-</urn:ColorStructureType>
-  <urn:ScalableColorType> -137 19 3 82 32 14 22 51 -31 13 11 -6 9 14 19 22 -6 1 0 5 -15 5 0 25 -2 2 2 0 -3 5 1 -4 3 0 0 1 0 0 1 3 8 -2 1 3 1 2 4 6 1 0 2 2 2 3 3 0 0 0 0 -2 1 0 -3 -3 1 1 0 0 0 0 0 2 2 1 2 1 2 2 2 3 3 1 0 1 0 0 1 3 0 0 2 1 3 3 2 1 0 0 0 1 0 0 2 2 2 2 2 1 3 3 1 0 -1 0 0 1 0 0 1 0 1 1 1 0 1 0 -1 1
-</urn:ScalableColorType>
-  <urn:ColorLayoutType> 26 19 14 15 14 15 19 10 18 16 16 16 17 17 14 16 15 14 18 13 16 16 14 17 18 16 15 15 15 14 16 15 18 19 16 16 16 17 17 16 15 18 15 17 14 15 16 16 16 15 16 16 16 14 16 16 17 15 16 16 17 15 16 15 14 18 17 16 14 17 16 18 17 15 17 17 17 15 16 16 17 17 18 16 16 16 16 15 16 17 17 17 51 13 15 16 19 18 16 17 15 16 16 17 15 17 18 16 14 17 15 17 17 16 16 17 16 15 15 15
-</urn:ColorLayoutType>
-  <urn:DominantColorType> 8 6 48 23 17 23 203 172 151 10 141 55 49 11 179 100 58 9 110 77 50 11 194 148 94 18 166 115 89 8 84 23 31
-</urn:DominantColorType>
-  <urn:HomogeneousTextureType> 106 116 198 200 207 194 169 165 210 193 183 171 177 197 187 210 161 172 145 186 168 175 157 152 157 169 162 166 145 126 138 164 204 204 209 194 172 161 201 186 179 171 165 190 169 206 145 159 128 178 155 148 155 133 153 167 143 141 116 111 103 145
-</urn:HomogeneousTextureType>
-  <urn:EdgeHistogramType> 3 4 4 5 3 2 4 6 5 5 2 4 3 6 6 2 3 6 6 5 1 6 4 5 6 2 5 4 6 5 3 4 4 5 6 3 2 5 2 6 3 5 7 1 4 3 4 7 2 4 1 5 5 5 6 1 2 3 5 5 6 1 6 1 4 2 2 6 6 6 3 5 5 4 5 4 1 1 3 1
-</urn:EdgeHistogramType>
+  <mpeg7:ColorStructureType>
+    <Values> 193 6 0 0 0 0 0 10 255 255 30 10 0 0 0 0 0 0 0 0 0 0 90 30 121 121 149 106 1 0 0 0 0 0 0 0 64 30 11 5 36 3 4 9 4 0 0 0 2 0 0 0 9 0 0 0 8 1 0 0 0 0 0 0
+</Values>
+  </mpeg7:ColorStructureType>
+  <mpeg7:ScalableColorType numOfBitPlanesDiscarded="0" numOfCoeff="128">
+    <Coeff> -137 19 3 82 32 14 22 51 -31 13 11 -6 9 14 19 22 -6 1 0 5 -15 5 0 25 -2 2 2 0 -3 5 1 -4 3 0 0 1 0 0 1 3 8 -2 1 3 1 2 4 6 1 0 2 2 2 3 3 0 0 0 0 -2 1 0 -3 -3 1 1 0 0 0 0 0 2 2 1 2 1 2 2 2 3 3 1 0 1 0 0 1 3 0 0 2 1 3 3 2 1 0 0 0 1 0 0 2 2 2 2 2 1 3 3 1 0 -1 0 0 1 0 0 1 0 1 1 1 0 1 0 -1 1
+</Coeff>
+  </mpeg7:ScalableColorType>
+  <mpeg7:ColorLayoutType>
+    <YDCCoeff>26</YDCCoeff>
+    <CbDCCoeff>14</CbDCCoeff>
+    <CrDCCoeff>51</CrDCCoeff>
+    <YACCoeff63>19 14 15 14 15 19 10 18 16 16 16 17 17 14 16 15 14 18 13 16 16 14 17 18 16 15 15 15 14 16 15 18 19 16 16 16 17 17 16 15 18 15 17 14 15 16 16 16 15 16 16 16 14 16 16 17 15 16 16 17 15 16 15</YACCoeff63>
+    <CbACCoeff27>18 17 16 14 17 16 18 17 15 17 17 17 15 16 16 17 17 18 16 16 16 16 15 16 17 17 17</CbACCoeff27>
+    <CrACCoeff27>13 15 16 19 18 16 17 15 16 16 17 15 17 18 16 14 17 15 17 17 16 16 17 16 15 15 15</CrACCoeff27>
+  </mpeg7:ColorLayoutType>
+  <mpeg7:DominantColorType>
+    <SpatialCoherency>6</SpatialCoherency>
+    <Value>
+      <Percentage>1</Percentage>
+      <Index>6 2 2</Index>
+      <ColorVariance>0 1 1</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>7</Percentage>
+      <Index>25 21 18</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>3</Percentage>
+      <Index>17 6 6</Index>
+      <ColorVariance>0 1 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>3</Percentage>
+      <Index>22 12 7</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>3</Percentage>
+      <Index>13 9 6</Index>
+      <ColorVariance>0 1 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>3</Percentage>
+      <Index>24 18 11</Index>
+      <ColorVariance>0 1 1</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>5</Percentage>
+      <Index>20 14 11</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>2</Percentage>
+      <Index>10 2 3</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+  </mpeg7:DominantColorType>
+  <mpeg7:HomogeneousTextureType>
+    <Average>106</Average>
+    <StandardDeviation>116</StandardDeviation>
+    <Energy>198 200 207 194 169 165 210 193 183 171 177 197 187 210 161 172 145 186 168 175 157 152 157 169 162 166 145 126 138 164</Energy>
+    <EnergyDeviation>204 204 209 194 172 161 201 186 179 171 165 190 169 206 145 159 128 178 155 148 155 133 153 167 143 141 116 111 103 145</EnergyDeviation>
+  </mpeg7:HomogeneousTextureType>
+  <mpeg7:EdgeHistogramType/>
+  <BinCounts> 3 4 4 5 3 2 4 6 5 5 2 4 3 6 6 2 3 6 6 5 1 6 4 5 6 2 5 4 6 5 3 4 4 5 6 3 2 5 2 6 3 5 7 1 4 3 4 7 2 4 1 5 5 5 6 1 2 3 5 5 6 1 6 1 4 2 2 6 6 6 3 5 5 4 5 4 1 1 3 1
+</BinCounts>
 </Mpeg7>

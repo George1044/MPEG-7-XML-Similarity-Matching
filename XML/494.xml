@@ -1,17 +1,43 @@
-<Mpeg7 xmlns:urn="urn:mpeg:mpeg7:schema:2004">
+<Mpeg7 xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004">
   <MediaLocator>
     <MediaURI>494.jpg</MediaURI>
   </MediaLocator>
-  <urn:ColorStructureType> 12 0 0 0 0 0 0 0 84 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 70 61 101 0 0 0 0 1 1 1 1 2 1 1 1 30 39 48 89 20 31 36 36 16 26 36 57 0 0 2 14 6 11 15 26 42 43 78 225
-</urn:ColorStructureType>
-  <urn:ScalableColorType> -171 45 -11 52 16 8 19 30 -28 5 8 21 9 14 19 22 -7 4 -3 2 -15 6 0 1 -2 2 2 0 -3 5 1 -4 3 3 2 2 1 0 1 2 4 1 1 2 1 2 4 4 1 0 2 2 2 3 3 0 0 0 0 -2 1 0 -3 -3 1 0 0 0 1 0 0 1 2 1 2 0 2 2 2 2 3 -1 -2 -2 -1 0 1 1 0 1 2 1 3 3 2 0 0 0 0 1 0 0 2 2 2 2 2 1 3 3 1 0 -1 0 0 1 0 0 1 0 1 1 1 0 1 0 -1 1
-</urn:ScalableColorType>
-  <urn:ColorLayoutType> 56 18 17 21 17 22 13 16 15 19 13 16 10 16 15 17 17 19 15 16 14 17 16 19 17 18 15 16 15 16 14 15 14 18 16 18 16 15 16 15 16 17 16 16 17 18 16 16 14 16 16 16 15 15 17 15 16 16 17 16 18 16 17 14 27 17 19 14 16 17 15 16 16 20 14 16 15 16 16 16 16 17 15 16 16 16 16 17 16 16 16 16 34 15 15 16 16 15 17 16 16 14 18 16 17 16 16 16 16 15 17 16 16 16 16 15 16 16 16 16
-</urn:ColorLayoutType>
-  <urn:DominantColorType> 8 1 43 24 13 71 227 227 227 16 227 211 176 1 87 86 80 2 92 48 22 2 129 105 83 2 158 157 152 1 150 106 72
-</urn:DominantColorType>
-  <urn:HomogeneousTextureType> 222 55 175 216 216 171 207 209 195 187 176 148 175 185 174 195 129 137 126 151 135 163 94 114 97 103 123 131 61 88 63 75 172 220 218 167 211 211 182 183 173 143 167 181 156 189 115 121 114 145 121 141 88 98 92 97 107 115 46 75 45 61
-</urn:HomogeneousTextureType>
-  <urn:EdgeHistogramType> 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 1 1 0 1 0 0 1 0 5 0 2 2 2 3 3 6 4 1 0 1 0 1 0 0 0 0 0 0 0 1 1 2 1 1 6 5 5 0 0 0 0 0 0 1 0 0 0 0 2 1 0 2 0 2 0 2 2 0 2 0 0 0
-</urn:EdgeHistogramType>
+  <mpeg7:ColorStructureType>
+    <Values> 12 0 0 0 0 0 0 0 84 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 70 61 101 0 0 0 0 1 1 1 1 2 1 1 1 30 39 48 89 20 31 36 36 16 26 36 57 0 0 2 14 6 11 15 26 42 43 78 225
+</Values>
+  </mpeg7:ColorStructureType>
+  <mpeg7:ScalableColorType numOfBitPlanesDiscarded="0" numOfCoeff="128">
+    <Coeff> -171 45 -11 52 16 8 19 30 -28 5 8 21 9 14 19 22 -7 4 -3 2 -15 6 0 1 -2 2 2 0 -3 5 1 -4 3 3 2 2 1 0 1 2 4 1 1 2 1 2 4 4 1 0 2 2 2 3 3 0 0 0 0 -2 1 0 -3 -3 1 0 0 0 1 0 0 1 2 1 2 0 2 2 2 2 3 -1 -2 -2 -1 0 1 1 0 1 2 1 3 3 2 0 0 0 0 1 0 0 2 2 2 2 2 1 3 3 1 0 -1 0 0 1 0 0 1 0 1 1 1 0 1 0 -1 1
+</Coeff>
+  </mpeg7:ScalableColorType>
+  <mpeg7:ColorLayoutType>
+    <YDCCoeff>56</YDCCoeff>
+    <CbDCCoeff>27</CbDCCoeff>
+    <CrDCCoeff>34</CrDCCoeff>
+    <YACCoeff63>18 17 21 17 22 13 16 15 19 13 16 10 16 15 17 17 19 15 16 14 17 16 19 17 18 15 16 15 16 14 15 14 18 16 18 16 15 16 15 16 17 16 16 17 18 16 16 14 16 16 16 15 15 17 15 16 16 17 16 18 16 17 14</YACCoeff63>
+    <CbACCoeff27>17 19 14 16 17 15 16 16 20 14 16 15 16 16 16 16 17 15 16 16 16 16 17 16 16 16 16</CbACCoeff27>
+    <CrACCoeff27>15 15 16 16 15 17 16 16 14 18 16 17 16 16 16 16 15 17 16 16 16 16 15 16 16 16 16</CrACCoeff27>
+  </mpeg7:ColorLayoutType>
+  <mpeg7:DominantColorType>
+    <SpatialCoherency>25</SpatialCoherency>
+    <Value>
+      <Percentage>22</Percentage>
+      <Index>28 28 28</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+    <Value>
+      <Percentage>5</Percentage>
+      <Index>28 26 22</Index>
+      <ColorVariance>0 0 0</ColorVariance>
+    </Value>
+  </mpeg7:DominantColorType>
+  <mpeg7:HomogeneousTextureType>
+    <Average>222</Average>
+    <StandardDeviation>55</StandardDeviation>
+    <Energy>175 216 216 171 207 209 195 187 176 148 175 185 174 195 129 137 126 151 135 163 94 114 97 103 123 131 61 88 63 75</Energy>
+    <EnergyDeviation>172 220 218 167 211 211 182 183 173 143 167 181 156 189 115 121 114 145 121 141 88 98 92 97 107 115 46 75 45 61</EnergyDeviation>
+  </mpeg7:HomogeneousTextureType>
+  <mpeg7:EdgeHistogramType/>
+  <BinCounts> 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 1 1 0 1 0 0 1 0 5 0 2 2 2 3 3 6 4 1 0 1 0 1 0 0 0 0 0 0 0 1 1 2 1 1 6 5 5 0 0 0 0 0 0 1 0 0 0 0 2 1 0 2 0 2 0 2 2 0 2 0 0 0
+</BinCounts>
 </Mpeg7>
